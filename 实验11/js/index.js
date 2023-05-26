@@ -1,0 +1,10 @@
+//gulp布局被点击
+$("body").on('click','.btn1',function(){
+	$(".lab1").show();
+	$(".lab2").hide();
+});
+//webpack布局被点击
+$("body").on('click','.btn2',function(){
+	$(".lab2").show();
+	$(".lab1").hide();
+});
